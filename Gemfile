@@ -62,3 +62,5 @@ end
 group :sqlite do
   gem 'dm-sqlite-adapter', '1.2.0'
 end
+
+gem 'unicorn'
