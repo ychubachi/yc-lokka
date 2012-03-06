@@ -2,6 +2,8 @@
 %html
   %head
     %title= @site.title 
+    %link{rel: "stylesheet", type: "text/css", href: "theme/example/stylesheets/style.css"}
+    %link{rel: "stylesheet", type: "text/css", href: "theme/example/stylesheets/reset.css"}
     %link{rel: "stylesheet", type: "text/css", href: "theme/example/jquery/css/custom-theme/jquery-ui-1.8.18.custom.css"}
     %script{type: "text/javascript", src: "theme/example/jquery/js/jquery-1.7.1.min.js"}
     %script{type: "text/javascript", src: "theme/example/jquery/js/jquery-ui-1.8.18.custom.min.js"}
@@ -12,6 +14,7 @@
   %body
     %header
       %h1= @site.title
+      = link_to 'admin', './admin/'
       %ol
         - Page.all.each do |page|
           %li= link_to page.title, url(page.link)
