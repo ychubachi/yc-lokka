@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title= @site.title 
+    %link{rel: "stylesheet", type: "text/css", href: "/theme/example/stylesheets/style.css"}
+  %body
+    %h1= entries
+    - @posts.each do |post|
+      %h2= post.title
+      .body= post.body
+    - Page.all.each do |page|
+      %li= link_to page.title, url(page.link)
+

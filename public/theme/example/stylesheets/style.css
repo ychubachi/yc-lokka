@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+  font-family: "Calibri", "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "sans-serif";
+  font-size: 12pt; }
+  body header {
+    color: white;
+    background-color: #00ccff; }
+  body article {
+    color: white;
+    background-color: #ff6600; }
+  body footer {
+    color: white;
+    background-color: #0033ff; }
+  body h1 {
+    font-size: 200%;
+    text-align: center;
+    color: #ffcc00; }
+  body h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 120%;
+    color: #0033ff; }

@@ -1,9 +1,4 @@
-!!!
-%html
-  %head
-    %title Example
-  %body
-    %h1= @site.title
-    - @posts.each do |post|
-      %h2= post.title
-      .body= post.body
+- @posts.each do |post|
+  %h2= post.title
+  = post.body
+

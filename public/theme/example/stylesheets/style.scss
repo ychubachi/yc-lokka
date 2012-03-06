@@ -1,0 +1,43 @@
+// http://sass-lang.com/tutorial.html
+
+$primary:     #00CCFF; // light blue
+$secondary-a: #0033FF; // blue
+$secondary-b: #FFCC00; // light orrange
+$complement:  #FF6600; // orange
+$white:       #FFFFFF;
+$black:       #000000;
+
+body {
+    font-family:
+      "Calibri",
+      "メイリオ", "Meiryo",
+      "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+      "sans-serif";
+    font-size: 12pt;
+    header {
+	color: $white;
+	background-color: $primary;
+    }
+    article {
+	color: $white;
+	background-color: $complement;
+    }
+    footer {
+	color: $white;
+	background-color: $secondary-a;
+    }
+    h1 {
+	font-size: 200%;
+	text-align: center;
+	color: $secondary-b;
+    }
+    h2 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 120%;
+	color: $secondary-a;
+    }
+    p {
+    }
+}
+
