@@ -64,3 +64,4 @@ group :sqlite do
 end
 
 gem 'unicorn'
+gem 'foreman'
